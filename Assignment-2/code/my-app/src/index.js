@@ -6,10 +6,10 @@ import reportWebVitals from './reportWebVitals';
 
 
 const employee = {
-  name: 'Tom',
-  location: 'New York',
-  bloodGroup: 'B+',
-  age: 28,
+  name: 'Rajkumar Shaw',
+  location: 'Jharkhand, India',
+  bloodGroup: 'A+',
+  age: 26,
   profileImg: 'https://www.w3schools.com/howto/img_avatar.png'
        }
 
