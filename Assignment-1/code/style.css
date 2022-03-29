@@ -1,1 +1,58 @@
-
+.App {
+    width: calc(100% - 50px);
+    height: 100vh;
+    padding: 25px;
+  }
+  
+  .AppComponent{
+    background: aliceblue;
+    margin-top: 15px;
+    height: calc(33.33%);
+  }
+  .Yellow{
+    background: yellow;
+    width: calc(50% - 5px);
+    height: 100%;
+    margin-right: 10px;
+    display:inline-block;
+  }
+  .Yellow:last-child{
+    margin: 0px;
+  }
+  
+  .Red{
+    background: red;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Blue{
+    background:blue;
+    width: calc(33.33% - 7px);
+    height: 100%;
+    margin-right: 10px;
+    display: inline-block;
+  
+  }
+  .Blue:last-child{
+    margin: 0px;
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .Yellow{
+      display: block;
+      width: 100%;
+      height: calc(50%);
+      margin-bottom: 10px;
+      
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .Blue{
+      display: block;
+      width: 100%;
+      height: calc(50% -5px);
+      margin-bottom: 10px;
+    }
+  }
