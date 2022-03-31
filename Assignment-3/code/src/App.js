@@ -11,9 +11,6 @@ const employee = {
   Door: 'Mark',
   Time: '10:30 (01/04/2022)',
   product_name: 'Boltaart Bosbessen',
-  location: 'Jharkhand, India',
-  bloodGroup: 'A+',
-  age: 26,
   profileImg: 'https://www.w3schools.com/howto/img_avatar.png'
        }
 var arrow="<"
