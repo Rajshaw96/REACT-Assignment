@@ -1,0 +1,95 @@
+body{
+    background-color: beige;
+}
+.site-container{
+    width: 60%;
+    margin: 50px auto;
+}
+
+ul {
+    background-color: #333;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 98px;
+    display: block;
+    color: white;
+  }
+  button{
+      background-color: brown;
+      color: white;
+      border: 0px;
+      padding: 5px 10px 5px 10px;
+  }
+  .customer-info{
+      background: white;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding: 15px;
+      border-radius: 5px;
+      border: 2px solid #73AD21;
+  }
+  .customer-info label{
+      font-weight: bold;
+  }
+
+  .order-info{
+      background-color: lightgray;
+      border-radius: 5px;
+      padding: 15px;
+      margin-bottom: 15px;
+      border: 2px solid #73AD21;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .product-list{
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #73AD21;
+    padding: 15px;
+    display: inline-flex;
+    flex-direction: row;
+  }
+  .check-box{
+      padding-top: 50px;
+      padding-right: 10px;
+  }
+  .product-list img{
+      width: 80px;
+      padding-top: 20px;
+  }
+  .pname{
+      padding-left: 20px;
+      padding-top: 0px;
+      padding-right: 5px;
+      text-align: justify;
+  }
+  .arrow2{
+      padding-right: 10px;
+      padding-left: 10px;
+      background: lightgray;
+      font-size: 30px;
+      padding-top: 20px;
+  }
+ 
