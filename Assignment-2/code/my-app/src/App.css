@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.main-div{
+  background: lightblue;
+  width: 250px;
+  height: 350px;
+  margin: 100px auto;
+  padding: 20px;
+}
+.profile-img{
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+
+  width: 50%;
+  
+}
+.detils{
+  margin-top: 50px;
+}
+h2{
+  font-size: 20px;
+  line-height: 24px;
+
+}

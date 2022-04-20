@@ -1,11 +1,62 @@
-.site-container{
-  text-align: center;
-}
-html {
-  font-size: 14px;
-}
 body {
-  line-height: 1.5;
-  color: black;
-  margin:0;
+  background: lightgray;
 } 
+/* .site-container{
+  width: 0%;
+  background: lightgrey;
+} */
+.tophader{
+  background: lightcyan;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  
+}
+.tophader img{
+  width: 150px;
+}
+.camra-icon{
+  float: right;
+}
+
+
+.post{
+ width: 30%;
+ margin: auto;
+ margin-bottom: 30px;
+ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+ height: max-content;
+ padding-top: 25px;
+ margin-top: 25px;
+ margin-bottom: 25px;
+ padding-bottom: 25px;
+ border-radius: 5px;
+
+}
+
+.mainpost{
+  display: inline-block;
+  width: 100%;
+  height: max-content;
+  display: inline-flex;
+}
+
+.rightside{
+  width: 50%;
+  padding-left: 15px;
+  text-align: left;
+  line-height: 0px;
+  
+}
+.leftside{
+  width: 50%;
+  text-align: right;
+  padding-right: 15px;
+
+}
+.leftside,h1{
+  float: right;
+}
+.post-image, img{
+  width: 100%;
+}
